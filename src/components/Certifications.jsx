@@ -40,7 +40,7 @@ const Certifications = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="heading-md">Certifications & Achievements</h2>
+          <h2 className="heading-md">Certifications</h2>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '3rem' }}>
             {certifications.map((cert, idx) => (
