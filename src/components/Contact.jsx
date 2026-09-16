@@ -28,13 +28,13 @@ const Contact = () => {
                 <h3 className="heading-sm" style={{ marginBottom: '1.5rem' }}>Contact Info</h3>
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                  <a href="mailto:ayush.raj20243@lpu.in" style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-primary)', textDecoration: 'none' }}>
+                  <a href="mailto:raajayush07@gmail.com" style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-primary)', textDecoration: 'none' }}>
                     <div style={{ padding: '0.75rem', background: 'rgba(139, 92, 246, 0.1)', borderRadius: '0.5rem', color: 'var(--accent-primary)' }}>
                       <Mail size={24} />
                     </div>
                     <div>
                       <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Email</p>
-                      <p style={{ fontWeight: 500 }}>ayush.raj20243@lpu.in</p>
+                      <p style={{ fontWeight: 500 }}>raajayush07@gmail.com</p>
                     </div>
                   </a>
 
