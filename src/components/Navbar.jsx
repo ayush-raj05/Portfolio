@@ -15,7 +15,7 @@ const Navbar = () => {
           Ayush Raj
         </motion.a>
         <div className="nav-links">
-          {['About', 'Experience', 'Projects', 'Contact'].map((item, index) => (
+          {['About', 'Experience', 'Projects', 'Certifications', 'Contact'].map((item, index) => (
             <motion.a
               key={item}
               href={`#${item.toLowerCase()}`}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Briefcase } from 'lucide-react';
+import { Briefcase, ExternalLink } from 'lucide-react';
 
 const Experience = () => {
   return (
@@ -63,6 +63,12 @@ const Experience = () => {
                 <li>Learned about downstream processing involving column chromatography, solvent recovery, and filtration.</li>
                 <li>Observed the use of pH meters, TLC, UV-Vis spectrophotometry, centrifuges, and reactors for process monitoring.</li>
               </ul>
+              
+              <div style={{ marginTop: '1.5rem' }}>
+                <a href="https://drive.google.com/file/d/1j4K5lQPx-KqI3we27WwFvUESjrgssDr-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', color: 'var(--accent-primary)', textDecoration: 'none', fontWeight: 500, padding: '0.5rem 1rem', background: 'rgba(139, 92, 246, 0.1)', borderRadius: '0.5rem', border: '1px solid rgba(139, 92, 246, 0.2)' }}>
+                  View Internship Certificate <ExternalLink size={16} />
+                </a>
+              </div>
             </motion.div>
           </div>
         </motion.div>
